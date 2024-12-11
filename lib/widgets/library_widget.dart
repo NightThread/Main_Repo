@@ -29,7 +29,7 @@ class MyPainter extends CustomPainter {
     canvas.drawCircle(Offset(size.width / 2, size.height / 2,), size.width / 2, backgroundPaint);
   
       final fieldPaint = Paint();
-    fieldPaint.color = Colors.yellow;
+    fieldPaint.color = Colors.blue;
     fieldPaint.style = PaintingStyle.stroke;
     fieldPaint.strokeWidth = 5;
     canvas.drawArc(
